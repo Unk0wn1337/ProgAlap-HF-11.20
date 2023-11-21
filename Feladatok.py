@@ -62,6 +62,35 @@ def hatodikFeladat():
     else:
         print(f"Nem {szam} <- ez nem egy prímszám")
 
+def hetedikFeladat():
+    negyzetSzamDb = 0
+    index = 0
+    while index < 100001:
+        negyzet = index ** 2
+        if negyzet <= 100000:
+            negyzetSzamDb += 1
+        index+=1
+    print(f"Ennyi negyzetszam: {negyzetSzamDb}")
+
+def nyolcadikFeladat():
+    negyzetSzamDb = 0
+    index = 1
+    while index ** 2 <= 100000:
+        negyzetSzamDb += 1
+        index+=1
+    print(f"Ennyi negyzetszam: {negyzetSzamDb}")
+
+
+def kilencedikFeladat():
+    negyzetSzamokOsszge = 0
+    index = 0
+    while index < 10001:
+        negyzetszam = index ** 2
+        negyzetSzamokOsszge += negyzetszam
+        index+=1
+    print(f"Ennyi a vegosszege: {negyzetSzamokOsszge}")
+
+
 
 
 

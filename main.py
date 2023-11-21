@@ -4,4 +4,7 @@ import Feladatok
 # Feladatok.harmadikFeladat()
 # Feladatok.negyedikFeladat()
 # Feladatok.otodikFeladat()
-Feladatok.hatodikFeladat()
+# Feladatok.hatodikFeladat()
+# Feladatok.hetedikFeladat()
+# Feladatok.nyolcadikFeladat()
+Feladatok.kilencedikFeladat()
